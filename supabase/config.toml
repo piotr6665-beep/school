@@ -1,0 +1,25 @@
+project_id = "tferxsizdhsiizkedjbn"
+
+[functions.verify-admin-password]
+verify_jwt = true
+
+[functions.create-demo-user]
+verify_jwt = false
+
+[functions.send-contact-email]
+verify_jwt = false
+
+[functions.admin-users]
+verify_jwt = false
+
+[functions.send-class-reminders]
+verify_jwt = false
+
+[functions.notify-waitlist]
+verify_jwt = false
+
+[functions.notify-admin-booking]
+verify_jwt = false
+
+[functions.send-booking-confirmation]
+verify_jwt = false
